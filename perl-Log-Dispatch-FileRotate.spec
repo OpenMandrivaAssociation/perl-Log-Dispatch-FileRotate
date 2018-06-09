@@ -15,6 +15,7 @@ BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Test::Warn)
 BuildRequires:	perl(Path::Tiny)
 BuildRequires:	perl(Log::Dispatch)
+BuildRequires:	perl(Package::Stash)
 BuildRequires:	perl-devel
 
 %description
