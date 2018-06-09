@@ -16,6 +16,8 @@ BuildRequires:	perl(Test::Warn)
 BuildRequires:	perl(Path::Tiny)
 BuildRequires:	perl(Log::Dispatch)
 BuildRequires:	perl(Package::Stash)
+BuildRequires:	perl(Sub::Identify)
+BuildRequires:	perl(Date::Manip)
 BuildRequires:	perl-devel
 
 %description
