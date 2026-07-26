@@ -1,14 +1,12 @@
 %define modname	Log-Dispatch-FileRotate
-%define modver 1.35
-
 Summary:	Log to files that archive/rotate themselves in Perl
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	3
+Version:	1.35
+Release:	4
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Log/%{modname}-%{modver}.tar.gz
+Url:		https://metacpan.org/dist/%{modname}
+Source0:	http://www.cpan.org/modules/by-module/Log/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Test)
@@ -25,7 +23,7 @@ BuildRequires:	perl-devel
 Log to files that archive/rotate themselves in Perl
 
 %prep
-%setup -qn %{modname}-%{modver}
+%setup -qn %{modname}-%{version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
